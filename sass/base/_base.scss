@@ -9,6 +9,19 @@
 html {
   font-size: 62.5%;
   /*esta cantidad es porque el tamaño predeterminado es 16px pero nosotros queremos 10px, entonces es 10/16= 0.625*/
+
+  @include respond(phone) {
+    font-size: 50%;
+  }
+  @include respond(tab-port) {
+    font-size: 60%;
+  }
+  @include respond(tab-land) {
+    font-size: 70%;
+  }
+  @include respond(big-desktop) {
+    font-size: 80%;
+  }
 }
 
 body {
