@@ -10,15 +10,16 @@ html {
   font-size: 62.5%; //1rem = 10px
   /*esta cantidad es porque el tamaño predeterminado es 16px pero nosotros queremos 10px, entonces es 10/16= 0.625*/
 
-  @include respond(phone) {
-    font-size: 50%;
-  }
-  @include respond(tab-port) {
-    font-size: 50%; // 1 rem =8px, 8/16 =50%
-  }
   @include respond(tab-land) {
+    //width < 1200?
     font-size: 56.25%; // 1 rem =9px, 9/16 =50%
   }
+
+  @include respond(tab-port) {
+    //width < 900?
+    font-size: 50%; // 1 rem =8px, 8/16 =50%
+  }
+
   @include respond(big-desktop) {
     font-size: 75%; // 1 rem =12px, 12/16 =75%
   }
