@@ -29,6 +29,8 @@ Breakpoint argument choices
 -big-desktop
 
 
+ORDER: base + typography > general layout + grid page layout > components 
+
 1 em = 16 px
 */
 @mixin respond($breakpoint) {
