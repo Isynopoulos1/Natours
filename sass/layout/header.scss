@@ -16,8 +16,8 @@
     //combinamos dos condicines, si la resolucion min es 192 dpis o si el minimo de ancho es 2000px, se separa con,
     background-image: linear-gradient(
         to right bottom,
-        rgba($color-secondary-light, 0.8),
-        rgba($color-secondary-dark, 0.8)
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)
       ),
       url(../img/hero.jpg);
   }
