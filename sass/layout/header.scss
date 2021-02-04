@@ -17,9 +17,9 @@
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     height: 95vh;
   }
-  @media (min-resolution: 192dpi) and (min-width: 37.5em),
-    (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
-    (min-width: 125em) {
+  @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+    only screen and(-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+    only screen and(min-width: 125em) {
     //combinamos dos condicines, si la resolucion min es 192 dpis o si el minimo de ancho es 2000px, se separa con,
     background-image: linear-gradient(
         to right bottom,
